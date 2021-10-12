@@ -1,0 +1,10 @@
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.exe.config
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.exe
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.pdb
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csprojAssemblyReference.cache
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CoreCompileInputs.cache
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.exe
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.pdb
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\bin\Debug\System.ValueTuple.dll
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\bin\Debug\System.ValueTuple.xml
+C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CopyComplete
