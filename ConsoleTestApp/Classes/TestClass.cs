@@ -12,18 +12,20 @@ namespace ConsoleTestApp.Classes
     {
         private static int nextID;
         private readonly int ID;
-        private string description { get; set; }
+        private string description
+        {
+            get => description; 
+            set => description = value.ToUpper();
+        }
 
         static TestClass() => nextID = 0;
 
-        public TestClass(string description = "")
+        public TestClass(string description = "EMPTY")
         {
             this.description = description;
             ID = Interlocked.Increment(ref nextID);
         }
 
         public override string ToString() => $"ID: {ID}, Description: {description};";
-        
-
     }
 }

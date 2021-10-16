@@ -8,3 +8,13 @@ C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTe
 C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\bin\Debug\System.ValueTuple.dll
 C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\bin\Debug\System.ValueTuple.xml
 C:\Users\Ноут\source\repos\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CopyComplete
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.exe.config
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.exe
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.pdb
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\bin\Debug\System.ValueTuple.dll
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\bin\Debug\System.ValueTuple.xml
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csprojAssemblyReference.cache
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CoreCompileInputs.cache
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CopyComplete
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.exe
+G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.pdb

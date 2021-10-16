@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Person.cs" />
+    <Compile Include="Classes\Shape.cs" />
+    <Compile Include="Classes\StaticClassTest.cs" />
     <Compile Include="Classes\TestClass.cs" />
+    <Compile Include="Interfaces\Drawable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

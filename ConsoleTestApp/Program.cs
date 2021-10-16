@@ -1,5 +1,6 @@
 ﻿using System;
 using ConsoleTestApp.Classes;
+using ConsoleTestApp.Interfaces;
 
 namespace ConsoleTestApp
 {
@@ -12,26 +13,7 @@ namespace ConsoleTestApp
             Three,
             Four
         }
-
-        class Person
-        {
-            public string name { get; set; }
-            public int age { get; set; }
-
-            public Person(string name, int age)
-            {
-                this.name = name;
-                this.age = age;
-            }
-
-            public Person() { }
-
-            public Person(string name) : this(name, 0) { }
-
-            public override string ToString() => $"Name: {name}, Age: {age};";
-
-        }
-
+                
         class DatabaseReader
         {
             public int? numencValue = null;
@@ -77,8 +59,18 @@ namespace ConsoleTestApp
 
             TuplesTestFoo();
 
-             //Console.WriteLine(String.Join<TestClass>("\n", testClassesArray.));
-            for (int i = 0; i < 5; i++) Console.WriteLine(new TestClass().ToString());
+            //for (int i = 0; i < 5; i++) Console.WriteLine(new TestClass().ToString());
+
+            Console.WriteLine(new TestClass().ToString());
+
+            Console.WriteLine();
+
+            Shape[] shapes = { new Circle(), new Square(), new Triangle()};
+
+            foreach (Shape shape in shapes)
+            {
+                shape.Draw();
+            }
 
             Console.ReadKey();
         }
@@ -179,6 +171,8 @@ namespace ConsoleTestApp
             Console.WriteLine($"Value is: {data}\n");
 
         }
+
+         
 
 
     }
