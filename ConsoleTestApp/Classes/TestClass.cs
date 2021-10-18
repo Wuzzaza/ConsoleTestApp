@@ -12,17 +12,19 @@ namespace ConsoleTestApp.Classes
     {
         private static int nextID;
         private readonly int ID;
-        private string description
+        private string description;
+        public string Description
         {
-            get => description; 
+            get { return description; }
             set => description = value.ToUpper();
         }
 
         static TestClass() => nextID = 0;
 
-        public TestClass(string description = "EMPTY")
+
+        public TestClass(string description = "empty")
         {
-            this.description = description;
+            Description = description;
             ID = Interlocked.Increment(ref nextID);
         }
 
