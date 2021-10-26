@@ -59,8 +59,6 @@ namespace ConsoleTestApp
 
             TuplesTestFoo();
 
-            //for (int i = 0; i < 5; i++) Console.WriteLine(new TestClass().ToString());
-
             Console.WriteLine(new TestClass().ToString());
 
             Console.WriteLine();

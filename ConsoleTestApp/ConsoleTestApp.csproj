@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\A.cs" />
     <Compile Include="Classes\Person.cs" />
     <Compile Include="Classes\Shape.cs" />
     <Compile Include="Classes\StaticClassTest.cs" />
