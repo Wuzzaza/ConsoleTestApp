@@ -1,5 +1,6 @@
 ﻿using System;
 using ConsoleTestApp.Classes;
+using System.Collections;
 using ConsoleTestApp.Interfaces;
 
 namespace ConsoleTestApp
@@ -65,9 +66,20 @@ namespace ConsoleTestApp
 
             Shape[] shapes = { new Circle(), new Square(), new Triangle()};
 
-            foreach (Shape shape in shapes)
+            foreach (Shape shape in shapes) shape.Draw();
+            object obj = new Circle();
+            Console.WriteLine(obj is Circle);
+
+            try
             {
-                shape.Draw();
+                ExeptionClassTest.Test();
+            }
+            catch(Exception e)
+            {
+                foreach(DictionaryEntry de in e.Data)
+                {
+                    Console.WriteLine($"-> {de.Key}: {de.Value}");
+                }
             }
 
             Console.ReadKey();
@@ -81,7 +93,7 @@ namespace ConsoleTestApp
 
         private static void ReturnModificatorTestFoo()
         {
-            int x = 2;
+            int x = 2; 
             int y = 3;
             int result;
 
