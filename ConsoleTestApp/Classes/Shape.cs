@@ -7,7 +7,7 @@ using ConsoleTestApp.Interfaces;
 
 namespace ConsoleTestApp.Classes
 {
-    abstract class Shape : Drawable
+    abstract class Shape : IDrawable
     {
         private Point coordinates = new Point();
 

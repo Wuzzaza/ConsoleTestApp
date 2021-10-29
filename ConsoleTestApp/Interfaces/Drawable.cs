@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleTestApp.Interfaces
 {
-    public interface Drawable
+    public interface IDrawable
     {
 
         void Draw();

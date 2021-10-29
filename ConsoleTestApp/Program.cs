@@ -76,10 +76,7 @@ namespace ConsoleTestApp
             }
             catch(Exception e)
             {
-                foreach(DictionaryEntry de in e.Data)
-                {
-                    Console.WriteLine($"-> {de.Key}: {de.Value}");
-                }
+                foreach(DictionaryEntry de in e.Data) Console.WriteLine($"-> {de.Key}: {de.Value}");
             }
 
             Console.ReadKey();
