@@ -52,7 +52,8 @@
     <Compile Include="Classes\Shape.cs" />
     <Compile Include="Classes\StaticClassTest.cs" />
     <Compile Include="Classes\TestClass.cs" />
-    <Compile Include="Interfaces\Drawable.cs" />
+    <Compile Include="Interfaces\IDrawable.cs" />
+    <Compile Include="Interfaces\IPointy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

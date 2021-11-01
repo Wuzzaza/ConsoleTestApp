@@ -66,7 +66,11 @@ namespace ConsoleTestApp
 
             Shape[] shapes = { new Circle(), new Square(), new Triangle()};
 
-            foreach (Shape shape in shapes) shape.Draw();
+            foreach (Shape shape in shapes)
+            {
+                shape.Draw();
+                if (shape is IPointy isPointy) Console.WriteLine($"Number of Points: {isPointy.GetNumberOfPoints()}");
+            }
             object obj = new Circle();
             Console.WriteLine(obj is Circle);
 
