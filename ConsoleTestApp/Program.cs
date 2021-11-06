@@ -65,8 +65,9 @@ namespace ConsoleTestApp
             Console.WriteLine();
 
             Shape[] shapes = { new Circle(), new Square(), new Triangle()};
-
-            foreach (Shape shape in shapes) shape.Draw();
+            Canvas canvas = new Canvas(shapes);
+            
+            foreach (Shape shape in canvas) shape.Draw();
             object obj = new Circle();
             Console.WriteLine(obj is Circle);
 
