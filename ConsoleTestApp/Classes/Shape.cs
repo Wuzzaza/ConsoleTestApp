@@ -40,7 +40,7 @@ namespace ConsoleTestApp.Classes
         }
     }
 
-    sealed class Square : Shape
+    sealed class Square : Shape, IPointy
     {
         private int width, height;
         public int Width { get => width; set => width = value; }
@@ -52,10 +52,17 @@ namespace ConsoleTestApp.Classes
             Console.WriteLine($"Widht: {Width}");
             Console.WriteLine($"Height: {Height}");
         }
+
+        public int GetNumberOfPoints() => 4;
     }
 
-    sealed class Triangle : Shape
+    sealed class Triangle : Shape, IPointy
     {
+        public override void Draw()
+        {
+            base.Draw();
+        }
 
+        public int GetNumberOfPoints() => 3;
     }
 }
