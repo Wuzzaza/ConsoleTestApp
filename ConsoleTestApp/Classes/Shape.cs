@@ -7,13 +7,22 @@ using ConsoleTestApp.Interfaces;
 
 namespace ConsoleTestApp.Classes
 {
-    abstract class Shape : IDrawable
+    abstract class Shape : IDrawable, ICloneable
     {
         private Point coordinates = new Point();
 
         protected int X { get => coordinates.X; set => coordinates.X = value; }
         protected int Y { get => coordinates.Y; set => Y = value; }
 
+        public object Clone() => MemberwiseClone();
+
+        public Shape() { }
+
+        public Shape(int x, int y)
+        {
+            this.X = x;
+            this.Y = y;
+        }
         public virtual void Draw()
         {
             Console.WriteLine($"Drawing {this.GetType()}");

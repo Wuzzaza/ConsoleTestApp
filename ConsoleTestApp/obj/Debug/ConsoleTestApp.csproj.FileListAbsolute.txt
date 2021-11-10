@@ -18,13 +18,4 @@ G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CoreCo
 G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CopyComplete
 G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.exe
 G:\Docs\GIT\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.pdb
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.exe.config
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.exe
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.pdb
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\bin\Debug\System.ValueTuple.dll
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\bin\Debug\System.ValueTuple.xml
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csprojAssemblyReference.cache
 G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CoreCompileInputs.cache
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csproj.CopyComplete
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.exe
-G:\VS_Projects\OncoCalculatorCS\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.pdb

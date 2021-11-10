@@ -5,6 +5,7 @@ using ConsoleTestApp.Interfaces;
 
 namespace ConsoleTestApp
 {
+
     internal class Program
     {
         private enum EnumTest
@@ -40,6 +41,7 @@ namespace ConsoleTestApp
 
         static void Main(string[] args)
         {
+
             UnnecessaryParametersTest(name: "Admin");
             UnnecessaryParametersTest(1, "Me");
 
@@ -68,8 +70,11 @@ namespace ConsoleTestApp
             Canvas canvas = new Canvas(shapes);
             
             foreach (Shape shape in canvas) shape.Draw();
-            object obj = new Circle();
-            Console.WriteLine(obj is Circle);
+
+            Console.WriteLine("*** Clone() test ***");
+            Circle circleOne = new Circle();
+            Circle circleTwo = (Circle)circleOne.Clone();
+            circleTwo.Draw();
 
             try
             {
@@ -180,10 +185,19 @@ namespace ConsoleTestApp
 
         }
 
-         
+        private static void NamespaceTestClassFoo()
+        {
+            Classes.NamespaceTestClass namespaceTestClass = new Classes.NamespaceTestClass();
+        }
+
+
+
 
 
     }
 
-    
+    public class NamespaceTestClass
+    {
+        NamespaceTestClass() => Console.WriteLine("Creating NamespaceTestClass exemplar");
+    }
 }

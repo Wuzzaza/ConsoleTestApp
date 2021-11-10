@@ -49,6 +49,7 @@
     <Compile Include="Classes\A.cs" />
     <Compile Include="Classes\Canvas.cs" />
     <Compile Include="Classes\ExeptionClassTest.cs" />
+    <Compile Include="Classes\NamespaceTestClass.cs" />
     <Compile Include="Classes\Person.cs" />
     <Compile Include="Classes\Shape.cs" />
     <Compile Include="Classes\StaticClassTest.cs" />
